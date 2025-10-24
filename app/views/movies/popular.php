@@ -39,6 +39,15 @@
 
   .movie-container {
     text-align: center;
+    background-color: #111;
+    border-radius: 10px;
+    padding: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .movie-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #ff0000;
   }
 
   .movie-container img {
@@ -52,4 +61,6 @@
     margin-top: 10px;
     color: #fff;
   }
+
+
 </style>
